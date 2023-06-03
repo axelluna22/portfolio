@@ -8,3 +8,22 @@
     justify-content: end;
     align-items: center;
 }
+
+
+/* ESTILO AL MAIN*/
+.section1{
+    background-color: aqua;
+}
+.container{
+    position: absolute;
+}
+.texto1{
+    position: relative;
+}
+.texto2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
