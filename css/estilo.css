@@ -1,0 +1,10 @@
+/* ESTILO DEL HEADER*/
+.Navegacion{
+    background-color: cornflowerblue;
+}
+
+.NavHeader{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
