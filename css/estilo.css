@@ -46,3 +46,14 @@
     margin: 0 auto;
 }
 
+.section3{
+    background-color: cornflowerblue;
+}
+.container3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contSoftware{
+    display: flex;
+    justify-content: center;
+}
