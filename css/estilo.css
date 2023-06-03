@@ -11,10 +11,8 @@
 
 
 /* ESTILO AL MAIN*/
-.section1{
-    background-color: aqua;
-}
-.container{
+
+/**.container{
     position: absolute;
 }
 .texto1{
@@ -25,5 +23,26 @@
     top: 0;
     left: 0;
     z-index: 1;
+}**/
+
+.section2{
+    background-color: antiquewhite;
+}
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+.img1{
+    border-radius: 50%;
+    border: 1rem solid white;
+    width: 20rem;
+    height: 20rem;
+    background-size: cover;
+    margin: 0 auto;
 }
 
