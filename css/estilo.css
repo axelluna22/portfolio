@@ -76,3 +76,19 @@
     border-bottom: 2rem solid white;
     border-radius: 1rem;
 }
+
+.section5{
+    background-color: maroon;
+}
+.imgtrabajos{
+    display: flex;
+    justify-content: space-around;
+}
+.img3, .img4, .img5 {
+    height: 25rem;
+    width: 23rem;
+    border-top: 2rem solid white;
+    border-bottom: 2rem solid white;
+    border-radius: 1rem;
+}
+    
