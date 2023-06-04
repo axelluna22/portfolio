@@ -57,3 +57,22 @@
     display: flex;
     justify-content: center;
 }
+
+.section4{
+    background-color: aquamarine;
+}
+.infoTP{
+    display: flex;
+    justify-content: center;
+}
+.trabajos{
+    display: flex;
+    justify-content: space-around;
+}
+.img2{
+    height: 25rem;
+    width: 23rem;
+    border-top: 2rem solid white;
+    border-bottom: 2rem solid white;
+    border-radius: 1rem;
+}
