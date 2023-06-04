@@ -153,3 +153,11 @@ input::placeholder, textarea::placeholder{
 .btn:hover{
     background-color:  #283629;
 }
+
+.section7{
+    background-color: darkgray;
+}
+.container-footer{
+    display: flex;
+    justify-content: space-around;
+}
