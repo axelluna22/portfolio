@@ -25,6 +25,8 @@
     z-index: 1;
 }**/
 
+
+
 .section2{
     background-color: antiquewhite;
 }
@@ -45,6 +47,8 @@
     background-size: cover;
     margin: 0 auto;
 }
+
+
 
 .section3{
     background-color: cornflowerblue;
@@ -77,6 +81,8 @@
     border-radius: 1rem;
 }
 
+
+
 .section5{
     background-color: maroon;
 }
@@ -91,4 +97,59 @@
     border-bottom: 2rem solid white;
     border-radius: 1rem;
 }
-    
+
+
+
+.section6{
+    background-color: coral;
+    min-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    padding: 3rem;
+    box-shadow: 0 0 1.25 rgba(0, 0, 0, 0.2);
+    border-radius: 1.25;
+    text-align: center;
+    width: 21.25;
+}
+.input-contacto{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.h5{
+    color: black;
+    font-size: 2.3rem;
+}
+.label{
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.9rem;
+}
+input, textarea{
+    padding: 1rem 1.5rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1.25rem;
+    background-color: #edfff0;
+    border: 0.125rem  solid #f0faf1;
+    color: #283629;
+    outline: none;
+}
+input::placeholder, textarea::placeholder{
+    color: #b5cab6;
+}    
+.btn{
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    border: 0;
+    border-radius: 1,5rem;
+    background-color: orange;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:  #283629;
+}
