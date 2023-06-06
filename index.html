@@ -2,22 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@900&family=Londrina+Sketch&family=Mogra&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porfolio Axel Luna</title>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    <header class="Navegacion">
-        <input class="NavBuscar" type="text" placeholder="Buscar..">
-
-        <nav class="NavHeader">
-            <a href="">Inicio</a>
-            <a href="">Portafolio</a>
-            <a href="">¿Quien soy?</a>
-            <a href="">Contacto</a>
+    <header>
+        <nav class="navegacion">
+            <div class="navegacion1">
+                <button><img src="img/menu.png"></button>
+                <input class="navbuscar" type="text" placeholder="Buscar...">
+                <button ><img class="btnnav" src="img/lupa.png"></button>
+            </div>
+            <div class="navegacion2">
+                <a href="">Inicio</a>
+                <a href="">Portafolio</a>
+                <a href="">¿Quien soy?</a>
+                <a href="">Contacto</a>
+        </div>
         </nav>
-
     </header>
 
 
@@ -25,8 +29,8 @@
         <section class="section1">
             <div class="container">
                 <span class="texto1">2023</span>
-                <span class="texto2"> PORTAFOLIO</span>
-
+                <span class="texto2"> PORTA <br> 
+                <span class="texto3"> FOLIO</span>
             </div>
         </section>
         
@@ -37,63 +41,72 @@
             <p>2023</p>
         </div>
         <div class="container2">
-            <div>
+            <div class="holainfo1">
                 <h1>¡HOLA!</h1>
                 <h1>SOY AXEL</h1>
-                <p>ESTUDIANTE</p>
-                <P>+54 11 3009 3704</P>
-                <p>lunaaxel22@gmail.com</p>
+                <p class="pestudiante">ESTUDIANTE</p>
+                <span></span>
+                <P class="pnumero">+54 11 3009 3704</P>
+                <p class="pgmail">lunaaxel22@gmail.com</p>
             </div>
-            <div>
+            <div class="holainfo2">
                 <img class="img1" src="img/img1.png">
-                <p>CV 2023</p>
-                <p>AXEL AGUSTIN LUNA</p>
-                <p class="descripcionMia">Soy una persona proactiva, comprometida y siempre dispuestaa aprender. <br> Poseo habilidades de resolucion de problemas, pensamiento analitico y <br> capacidad para trabajar en equipo. Estoy enfocado en ampliar mi conocimientos <br>en el campo de programacion a traves de diversos cursos, realizados en la academia <br>Udemy y la universidad Tecnologica Nacional. </p>
+                    <div class="divcv2023">
+                        <p class="cv2023">CV 2023</p>
+                    </div>
+                <p class="nombre2">AXEL AGUSTIN LUNA</p>
+                <span></span>
+                <p class="descripcionMia">Soy una persona proactiva, comprometida y siempre di- <br> spuestaa aprender. Poseo habilidades de resolucion de <br> problemas, pensamiento analitico y capacidad para trab- <br> ajar en equipo. Estoy enfocado en ampliar mi conocimi- <br> entos en el campo de programacion a traves de diversos <br> cursos, realizados en la academia Udemy y la universid- <br> ad Tecnologica Nacional. </p>
             </div>
         </div>
         </section>
 
-        <section class="section3">
+        <section class="section3">   
             <div class="container3">
                 <div>
-                    <h2>EXPERICENCIA</h2>
-                    <P>OPERADOR TELOFONICO <br> Agencia de salud <br> Galeno <br> JUL 2020 - DIC 2022 </P>
-                    <P>SOCIO CONDUCTOR <br> Uber - Didi - Beat <br> AGO 2021 - ACTUALDAD</P>
+                    <h2 class="linea">EXPERICENCIA</h2>
+                    <span></span>
+                    <P class="data">OPERADOR TELOFONICO <br> Agencia de salud <br> Galeno <br> JUL 2020 - DIC 2022 </P>
+                    <P class="data">SOCIO CONDUCTOR <br> Uber - Didi - Beat <br> AGO 2021 - ACTUALDAD</P>
 
                 </div>
                 <div>
-                    <h2>EDUCACIÓN</h2>
-                    <P>BACHILLER ECONOMÍA Y ADIMINISTRACIÓN <br> IGSM </P>
-                    <P>TECNICO EN ANESTESIA <br> UBA <br> 2020 - ACTUALDAD</P>
-                    <P>PROGAMACION FULL STACK <br> Udemy 2021 - 2022 <br> UTN 2023 - ACTUALIDAD
+                    <h2 class="linea">EDUCACIÓN</h2>
+                    <P class="data">BACHILLER ECONOMÍA Y ADIMINISTRACIÓN <br> IGSM </P>
+                    <P class="data">TECNICO EN ANESTESIA <br> UBA <br> 2020 - ACTUALDAD</P>
+                    <P class="data">PROGAMACION FULL STACK <br> Udemy 2021 - 2022 <br> UTN 2023 - ACTUALIDAD
                     </P>
 
                 </div>
                 <div>
-                    <h2>HABILIDADES</h2>
-                    <P>Compromiso <br> Creatividad <br> Trabajo en equipo <br> Razonamiento analitico <br> Critico <br> Comunicación</P>
+                    <h2 class="linea">HABILIDADES</h2>
+                    <P class="data">Compromiso <br> Creatividad <br> Trabajo en equipo <br> Razonamiento analitico <br> Critico <br> Comunicación</P>
 
                 </div>
             </div>
 
-            <div class="contSoftware">
-                <h2>SOFTWARE</h2>
-                <img src="">
-                <img src="">
-                <img src="">
+            <div>
+                <h2 class="contSoftware" >SOFTWARE</h2>
+                <span></span>
+                <div class="imgsoft">
+                    <img class="imglogo" src="img/html.png">
+                    <img class="imglogo" src="img/css.png">
+                    <img class="imglogo" src="img/JS.png">
+                </div>
             </div>
         </section>
 
         <section class="section4">
             <div class="infoTP">
-                <h3>TRABAJOS</h3>
+                <h3>TRABAJOS</h3>   
                 <h3>REDES SOCIALES</h3>
             </div>
             <div class="trabajos">
                 <div>
-                    <h4>TRABAJO PRÁCTICO</h4>
-                    <P>Tarea realizada para el curso de la <br> universidad Tecnologica Nacional.</P>
-                    <button>VER MÁS</button>
+                    <h4 class="titulotp">TRABAJO PRÁCTICO</h4>
+                    <span></span>
+                    <P class="ptrabajos">Tarea realizada para el curso de la <br> universidad Tecnologica Nacional.</P>
+                    <button class="btnvermas">VER MÁS</button>
                 </div>
                 <div> 
                     <img class="img2" src="img/img2.png">
@@ -102,7 +115,7 @@
         </section>
 
         <section class="section5">
-            <div class="imgtrabajos">
+            <div class="imgtrabajos">   
                 <div>
                     <img class="img3" src="img/img3.png">
                 </div>
@@ -116,17 +129,17 @@
         </section>
 
         <section class="section6">
-            <form>
+            <form class="form" >
                 <h5>CONTACTO</h5>
                 <div class="input-contacto">
                     <label for="Nombre">Nombre</label>
-                    <input type="Nombre" name="Nombre" placeholder="Nombre" id="Nombre">
+                    <input class="input6" type="Nombre" name="Nombre" placeholder="Nombre" id="Nombre">
 
                     <label for="Apellido">Apellido</label>
-                    <input type="Apellido" name="Apellido" placeholder="Apellido" id="Apellido">
+                    <input class="input6" type="Apellido" name="Apellido" placeholder="Apellido" id="Apellido">
 
                     <label for="Email">Email</label>
-                    <input type="Email" name="Email" placeholder="Email" id="Email">
+                    <input class="input6" type="Email" name="Email" placeholder="Email" id="Email">
 
                     <label for="Mensaje">Mensaje</label>
                     <textarea name="Mensaje" id="Mensaje" cols="30" rows="5" placeholder="Mensaje"></textarea>
@@ -138,21 +151,27 @@
     </main>
 
 
-    <footer class="section7">
-        <div class="container-footer">
+    <footer>
+        <div class="section7">
             <div>
-                <span>2023</span>
-                <span> PORTAFOLIO</span>
+                <img class="img2023" src="img/img2023.png">
+            </div>
+            <div class="footerinfo">
+                <h6 class="titulofooter">INFORMACIÓN</h6>
+                <span></span>
+                    <p class="pfooter">Argentina, Buenos Aires <br> correo: <br> lunaaxel22@gmail.com <br> Contacto: <br> +54 11 30093704</p>
+                    <h6 class="titulo7">¡GRACIAS POR VER!</h6>
             </div>
 
-            <div>
-                <h6>INFORMACIÓN</h6>
-                    <p>Argentina, Buenos Aires <br> correo: <br> lunaaxel22@gmail.com <br> Contacto: <br> +54 11 30093704</p>
-                    <h6>¡GRACIAS POR VER!</h6>
-            </div>
-            <div>
-                <h6>REDES SOCIALES</h6>
-
+            <div class="redesinfo">
+                <h6 class="titulofooter">REDES SOCIALES</h6>
+                <span></span>
+                <div>
+                    <img src="img/linkeding.png">
+                    <img src="img/whatsapp.png">
+                    <img src="img/instagram.png">
+                    <img src="img/facebook.png">
+                </div>
             </div>
         </div>
     </footer>

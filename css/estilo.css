@@ -1,43 +1,141 @@
-/* ESTILO DEL HEADER*/
-.Navegacion{
-    background-color: cornflowerblue;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Licorice', cursiva;
 }
 
+
+
+
+/* ESTILO DEL HEADER */
+.navegacion{
+    background-color: darkmagenta;
+    justify-content: center;
+    display: flex;
+}
+.navegacion1{
+    background-color: rgb(10, 13, 41);
+    width: 50%;
+    align-items: baseline;
+    text-align: center;
+}
+.navbuscar{
+    width: 15rem;
+    height: 1.8rem;
+    opacity: 0.3;
+    border-radius: 0.5rem;
+    color: #f31000;
+
+}
+   
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.navegacion2{
+    background-color: rgb(10, 13, 41);
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: end;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 30px;
+}
 .NavHeader{
     display: flex;
     justify-content: end;
     align-items: center;
+    background-color: #283629;
 }
 
 
-/* ESTILO AL MAIN*/
+/* ESTILO AL MAIN */
 
-/**.container{
-    position: absolute;
+.section1{
+    background-color: rgb(10, 13, 41);
+    height: 90vh;
+    text-transform: uppercase;
+    align-items: flex-start;
+    
 }
 .texto1{
-    position: relative;
+
+    padding-left: 15%;
+    padding-top: 2%;
+    text-align: justify;
+    position: absolute;
+    font-size: 3000%;
+    font-family: 'Josefin Sans', sans-serif;
+    -webkit-text-stroke: 2px rgb(65, 64, 64);
+    color: transparent;
+
+    
 }
 .texto2{
+    color: rgb(233, 155, 194);
+    padding-left: 30%;
+    padding-top: 12%;
+    text-align: justify;
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}**/
+    font-size: 800%;
+    font-family: 'Geologica', sans-serif;
+}
+
+.texto3{
+    color: rgb(216, 207, 196);
+    padding-left: 12%;
+    padding-top: -100px;
+    text-align: justify;
+    position: absolute;
+    font-size: 100%;
+    margin-left: 90px;
+    margin-top: -50px;
+    font-family: 'Geologica', sans-serif;
+  
+}
 
 
 
 .section2{
-    background-color: antiquewhite;
+    background-color: rgb(10, 13, 41);
+    color: white;
 }
 .encabezado{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+}
+h1{
+    font-size: 3.5rem;
+}
+.pestudiante{
+    border-bottom: 0.120rem solid rgb(122, 119, 119);
+    line-height: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.pnumero{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.pgmail{
+    color: rgb(233, 155, 194);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
 }
 .container2{
     display: flex;
     justify-content: space-around;
+}
+.holainfo1{
+    margin-top: 30rem;   
+} 
+.holainfo2{
+    margin-top: 10rem;
 }
 .img1{
     border-radius: 50%;
@@ -47,70 +145,151 @@
     background-size: cover;
     margin: 0 auto;
 }
+.nombre2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    word-spacing: 0.8rem;
+}
+.divcv2023{
+    display: flex;
+    justify-content: right;
+    text-align: center;
+}
+.cv2023{
+    border: 3rem solid black;
+    color: white;
+    background-color: rgb(233, 155, 194);
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border: 0;
+}
+.descripcionMia{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: start;
+    line-height: 1.6rem;
+}
+.nombre2{
+    border-bottom: 0.120rem solid rgb(122, 119, 119);
+    line-height: 2rem;
+}
 
 
 
 .section3{
-    background-color: cornflowerblue;
+    background-color: white;
+    height: 70vh;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.linea{
+    font-family: 'Geologica', sans-serif;
+    border-bottom: 0.120rem solid rgb(122, 119, 119);
+}
+.data{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3rem;
 }
 .container3{
     display: flex;
     justify-content: space-evenly;
 }
 .contSoftware{
+    font-family: 'Geologica', sans-serif;
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
+    border-bottom: 0.120rem solid rgb(122, 119, 119);   
+}
+.imgsoft{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imglogo{
+    margin-top: 2rem;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
 }
 
+
+
 .section4{
-    background-color: aquamarine;
+    background-color: rgb(10, 13, 41);
+    color: white;
+    height: 100vh;
 }
 .infoTP{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 7rem;
+    margin-top: 2rem;
 }
 .trabajos{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    bottom: -5rem;
 }
-.img2{
-    height: 25rem;
-    width: 23rem;
-    border-top: 2rem solid white;
-    border-bottom: 2rem solid white;
+.titulotp{
+    font-family: 'Geologica', sans-serif;
+    color: rgb(233, 155, 194);
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+.ptrabajos{
+    font-family: 'Source Sans Pro', sans-serif;
+    border-left: 0.6rem solid rgb(233, 155, 194);
+    
+    height: 40px;
+}
+.btnvermas{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    font-family: 'Geologica', sans-serif;
+    text-align: center;
+    width: 5rem;
+    height: 3rem;
+    background-color: rgb(233, 155, 194);
+    color: white;
     border-radius: 1rem;
+    border-color: solid rgb(233, 155, 194);
+    cursor: pointer;
 }
 
 
 
 .section5{
-    background-color: maroon;
+    background-color: rgb(10, 13, 41);;
 }
 .imgtrabajos{
     display: flex;
     justify-content: space-around;
 }
-.img3, .img4, .img5 {
-    height: 25rem;
+.img2,.img3, .img4, .img5 {
+    height: 30rem;
     width: 23rem;
-    border-top: 2rem solid white;
-    border-bottom: 2rem solid white;
-    border-radius: 1rem;
+    border-radius: 2.1rem;
+    display: inline;
 }
+
 
 
 
 .section6{
-    background-color: coral;
+    margin: 3rem;
+    height: 80vh;
+    background-color: rgb(10, 13, 41);
+    border-radius: 1rem;
     min-width: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
 }
 .form{
+    border-style: solid;
+    border-radius: 1rem;
+    background-color: white;
     padding: 3rem;
-    box-shadow: 0 0 1.25 rgba(0, 0, 0, 0.2);
-    border-radius: 1.25;
     text-align: center;
     width: 21.25;
 }
@@ -118,46 +297,109 @@
     display: flex;
     flex-direction: column;
     text-align: left;
+
 }
-.h5{
+
+h5{
     color: black;
-    font-size: 2.3rem;
+    font-size: 1.5rem;
+    font-family: 'Geologica', sans-serif;
+    margin-bottom: 1rem;
 }
 .label{
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 0.9rem;
     font-weight: 600;
     margin-bottom: 0.9rem;
 }
-input, textarea{
+.input6, textarea{
+    resize: none;
+    font-size: 0.8rem;
+    font-family: 'Source Sans Pro', sans-serif;
     padding: 1rem 1.5rem;
     border-radius: 1.5rem;
     margin-bottom: 1.25rem;
-    background-color: #edfff0;
-    border: 0.125rem  solid #f0faf1;
+    background-color: rgb(170, 165, 167);
+    border: 0.125rem  solid #bebdbd;
     color: #283629;
     outline: none;
 }
-input::placeholder, textarea::placeholder{
-    color: #b5cab6;
+.input6::placeholder, textarea::placeholder{
+    color: black;
 }    
 .btn{
+    font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
+    border-radius: 1rem;
     font-size: 1rem;
     color: white;
     border: 0;
-    border-radius: 1,5rem;
-    background-color: orange;
+    background-color: rgb(43, 136, 15);
     cursor: pointer;
+    width: 10rem;
+    height: 2rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 .btn:hover{
-    background-color:  #283629;
+    background-color: rgb(43, 136, 15);
+    color: black
 }
 
+
+/* ESTILO FOOTER */
 .section7{
-    background-color: darkgray;
-}
-.container-footer{
+    height: 30vh;
+    background-color: rgb(10, 13, 41);
     display: flex;
     justify-content: space-around;
+    color: white;
+}
+.img2023{
+    margin-top: 3rem;
+    width: 18rem;
+    height: 10rem;
+}
+.footerinfo{
+    margin-top: 2rem;
+}
+.pfooter{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.redesinfo{
+    margin-top: 2rem;
+}
+.titulofooter{
+    color: white;
+    font-family: 'Geologica', sans-serif;
+    font-size: 1.5rem;
+    border-bottom: 0.120rem solid white;
+}
+.titulo7{
+    color: white;
+    font-family: 'Geologica', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+/*  RESPONSIVE */
+
+@media screen and (min-width:1024px){
+    body{
+        background-color: #f31000;
+    }
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1023px){
+    body{
+        background-color: aqua;
+    }
+}
+
+
+@media screen and (max-width:767px){
+    body{
+        background-color: chartreuse;
+    }
 }
